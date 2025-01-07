@@ -1,6 +1,7 @@
-# coloRspacer
-Easily create and visualize evenly spaced color gradients of arbitrary length.
-
+\name{coloRspacer.R}
+\alias{coloRSpacer}
+\title{Easily Create And Visualize Color Gradients}
+\usage{
 Input
 start and end color: R color names or hex codes
 middle colors (optional): vector of color(s) to visit between start and end colors.
@@ -16,6 +17,10 @@ per.line    = 10: how many colors to plot on one plot row
 show.labels = T: label the axes
 show.grid   = T: draw a background grid
 grid.color  = "gray": background grid color
-
-Examples
-
+}
+\description{
+Easily create and visualize evenly spaced color gradients of arbitrary length.
+}
+\examples{
+coloRspacer(startcolor = "blue", endcolor = "red")
+}
