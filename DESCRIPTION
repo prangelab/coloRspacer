@@ -3,13 +3,12 @@ Type: Package
 Title: Easily Create And Visualize Color Gradients
 Version: 0.1.0
 Author: Koen Prange
-Maintainer: k.h.prange@amsterdamumc.nl
+Maintainer: Koen Prange <k.h.prange@amsterdamumc.nl>
 Description: coloRspacer
     Wrapper for colorRampPalette that allows intuitive creation of evenly spaced color gradients of arbitrary length. 
     This function helps get around not having the exact right amount of colors availabe in a palette. Or not having a palette available at all.
-    
-        Outputs a vector of hex colors.
-        Alternatively, visualize the gradient in a grid, allowing quick iterations to pick a satisfactory set of colors.
-License: GPL-3
+    Outputs a vector of hex colors.
+    Alternatively, visualize the gradient in a grid, allowing quick iterations to pick a satisfactory set of colors.
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
